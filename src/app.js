@@ -71,8 +71,7 @@ console.log('WebSocket server initialized');
 server.listen(PORT, '0.0.0.0', () => { 
     console.log(`🚀 Server (HTTP + WebSocket) is running on port ${PORT}`);
     console.log(`📚 API Documentation available at: http://localhost:${PORT}/api-docs`);
-    console.log(`📱 Mobile app can connect at: http://10.46.6.68:${PORT}`);
-    console.log(`🌐 Network accessible at: http://10.46.6.68:${PORT}`);
+    console.log(`🌐 Server accessible from any IP address`);
 });
 
 module.exports = app; // Keep exporting app for potential testing 

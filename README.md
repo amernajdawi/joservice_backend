@@ -111,6 +111,11 @@ Once the server is running, access the interactive API documentation at:
 - **Swagger UI**: `http://localhost:3000/api-docs`
 - **API Base URL**: `http://localhost:3000/api`
 
+### Production URLs
+- **Live API**: `https://joservicebackend-production.up.railway.app/`
+- **Live API Documentation**: `https://joservicebackend-production.up.railway.app/api-docs`
+- **Live API Base**: `https://joservicebackend-production.up.railway.app/api`
+
 ## 🏗️ Project Structure
 
 ```
@@ -253,6 +258,12 @@ Ensure all required environment variables are set in your production environment
 - `EMAIL_USER` and `EMAIL_PASS`
 - OAuth credentials
 - Firebase configuration
+
+### Production Deployment
+Your application is currently deployed on Railway at:
+- **Main URL**: `https://joservicebackend-production.up.railway.app/`
+- **API Documentation**: `https://joservicebackend-production.up.railway.app/api-docs`
+- **Health Check**: `https://joservicebackend-production.up.railway.app/`
 
 ## 🧪 Testing
 
